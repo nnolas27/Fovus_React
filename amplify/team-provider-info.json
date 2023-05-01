@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fovusreact-dev-185643-authRole",
+      "UnauthRoleArn": "arn:aws:iam::113368912592:role/amplify-fovusreact-dev-185643-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::113368912592:role/amplify-fovusreact-dev-185643-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-fovusreact-dev-185643-deployment",
+      "UnauthRoleName": "amplify-fovusreact-dev-185643-unauthRole",
+      "StackName": "amplify-fovusreact-dev-185643",
+      "StackId": "arn:aws:cloudformation:us-east-1:113368912592:stack/amplify-fovusreact-dev-185643/6d88e340-e7c3-11ed-be3d-0e808e040cf3",
+      "AmplifyAppId": "d2r23697u2h81h"
+    },
+    "categories": {
+      "auth": {
+        "fovusreactddb00ecd": {
+          "userPoolId": "us-east-1_auSISA84v",
+          "userPoolName": "FovusUserPool",
+          "webClientId": "72d9ivf4kl9vgnd2uc0jhueupf",
+          "nativeClientId": "72d9ivf4kl9vgnd2uc0jhueupf",
+          "identityPoolId": "us-east-1:8d994597-d504-43f9-b736-7ed3c9dd7cc7",
+          "identityPoolName": "FovusIdentityPool",
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::113368912592:role/FovusIdentityPoolAuthRole",
+          "authRoleName": "FovusIdentityPoolAuthRole",
+          "unauthRoleArn": "arn:aws:iam::113368912592:role/FovusIdentityPoolUnauthRole",
+          "unauthRoleName": "FovusIdentityPoolUnauthRole"
+        }
+      }
+    }
+  }
+}

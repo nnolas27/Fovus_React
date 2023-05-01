@@ -1,0 +1,21 @@
+version: 3
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - ls
+        - ls ../
+        - npm install -g npm
+        - npm ci
+        - pwd
+    build:
+      commands:
+        - npm run build
+        - ls
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
