@@ -71,6 +71,8 @@ REACT_APP_REGION: us-east-1
 
 REACT_APP_SECRET: {{AWS Secret Key}}
 
+REACT_APP_AMPLIFY: true
+
 Step 4.3: Review, Save and Deploy
 
 Step 4.4: Finish deployment and Get the Amplify Hosting URL
