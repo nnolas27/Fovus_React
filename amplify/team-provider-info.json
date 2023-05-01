@@ -1,24 +1,24 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-fovus-dev-03041-authRole",
-      "UnauthRoleArn": "arn:aws:iam::113368912592:role/amplify-fovus-dev-03041-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::113368912592:role/amplify-fovus-dev-03041-authRole",
+      "AuthRoleName": "amplify-fovus-dev-11327-authRole",
+      "UnauthRoleArn": "arn:aws:iam::113368912592:role/amplify-fovus-dev-11327-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::113368912592:role/amplify-fovus-dev-11327-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-fovus-dev-03041-deployment",
-      "UnauthRoleName": "amplify-fovus-dev-03041-unauthRole",
-      "StackName": "amplify-fovus-dev-03041",
-      "StackId": "arn:aws:cloudformation:us-east-1:113368912592:stack/amplify-fovus-dev-03041/14c54d50-e7f2-11ed-b273-0ec9605a0fb7",
-      "AmplifyAppId": "d3qibldf2jnxl2"
+      "DeploymentBucketName": "amplify-fovus-dev-11327-deployment",
+      "UnauthRoleName": "amplify-fovus-dev-11327-unauthRole",
+      "StackName": "amplify-fovus-dev-11327",
+      "StackId": "arn:aws:cloudformation:us-east-1:113368912592:stack/amplify-fovus-dev-11327/0f479ad0-e7f8-11ed-b04f-123ffb7b6683",
+      "AmplifyAppId": "d3lzuxfg8n7zhr"
     },
     "categories": {
       "auth": {
-        "fovusa3eb5c3e": {
-          "userPoolId": "us-east-1_6OdmA7KYd",
+        "fovus9ae1d66f": {
+          "userPoolId": "us-east-1_1U6QGDhIf",
           "userPoolName": "FovusUserPool",
-          "webClientId": "67i9vdvk9c72sgc80vugudr4p0",
-          "nativeClientId": "67i9vdvk9c72sgc80vugudr4p0",
-          "identityPoolId": "us-east-1:7830855a-2ae2-44d9-8396-a58983a3f2d3",
+          "webClientId": "7rdmk6ir2se4l0e5k18he7ccss",
+          "nativeClientId": "7rdmk6ir2se4l0e5k18he7ccss",
+          "identityPoolId": "us-east-1:4a5d6cec-864c-485e-8190-cb355f14b976",
           "identityPoolName": "FovusIdentityPool",
           "allowUnauthenticatedIdentities": true,
           "authRoleArn": "arn:aws:iam::113368912592:role/FovusIdentityPoolAuthRole",
@@ -29,7 +29,7 @@
       },
       "hosting": {
         "amplifyhosting": {
-          "appId": "d3qibldf2jnxl2",
+          "appId": "d3lzuxfg8n7zhr",
           "type": "cicd"
         }
       }
