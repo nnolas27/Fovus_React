@@ -12,25 +12,25 @@
       "AmplifyAppId": "d2r23697u2h81h"
     },
     "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2r23697u2h81h",
+          "type": "cicd"
+        }
+      },
       "auth": {
-        "fovusreactddb00ecd": {
-          "userPoolId": "us-east-1_auSISA84v",
+        "fovusreact0ce1a52b": {
+          "userPoolId": "us-east-1_VfBorE1XC",
           "userPoolName": "FovusUserPool",
-          "webClientId": "72d9ivf4kl9vgnd2uc0jhueupf",
-          "nativeClientId": "72d9ivf4kl9vgnd2uc0jhueupf",
-          "identityPoolId": "us-east-1:8d994597-d504-43f9-b736-7ed3c9dd7cc7",
+          "webClientId": "4oca9psuibt8o80udvqu6hter",
+          "nativeClientId": "4oca9psuibt8o80udvqu6hter",
+          "identityPoolId": "us-east-1:cb8641be-a944-4814-8853-29064d77ad80",
           "identityPoolName": "FovusIdentityPool",
           "allowUnauthenticatedIdentities": true,
           "authRoleArn": "arn:aws:iam::113368912592:role/FovusIdentityPoolAuthRole",
           "authRoleName": "FovusIdentityPoolAuthRole",
           "unauthRoleArn": "arn:aws:iam::113368912592:role/FovusIdentityPoolUnauthRole",
           "unauthRoleName": "FovusIdentityPoolUnauthRole"
-        }
-      },
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2r23697u2h81h",
-          "type": "cicd"
         }
       }
     }

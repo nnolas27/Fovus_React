@@ -1,6 +1,6 @@
 {
   "auth": {
-    "fovusreactddb00ecd": {
+    "fovusreact0ce1a52b": {
       "service": "Cognito",
       "serviceType": "imported",
       "providerPlugin": "awscloudformation",
