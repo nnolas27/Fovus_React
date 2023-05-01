@@ -1,36 +1,36 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-fovusreact-dev-185643-authRole",
-      "UnauthRoleArn": "arn:aws:iam::113368912592:role/amplify-fovusreact-dev-185643-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::113368912592:role/amplify-fovusreact-dev-185643-authRole",
+      "AuthRoleName": "amplify-fovus-dev-231413-authRole",
+      "UnauthRoleArn": "arn:aws:iam::113368912592:role/amplify-fovus-dev-231413-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::113368912592:role/amplify-fovus-dev-231413-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-fovusreact-dev-185643-deployment",
-      "UnauthRoleName": "amplify-fovusreact-dev-185643-unauthRole",
-      "StackName": "amplify-fovusreact-dev-185643",
-      "StackId": "arn:aws:cloudformation:us-east-1:113368912592:stack/amplify-fovusreact-dev-185643/6d88e340-e7c3-11ed-be3d-0e808e040cf3",
-      "AmplifyAppId": "d2r23697u2h81h"
+      "DeploymentBucketName": "amplify-fovus-dev-231413-deployment",
+      "UnauthRoleName": "amplify-fovus-dev-231413-unauthRole",
+      "StackName": "amplify-fovus-dev-231413",
+      "StackId": "arn:aws:cloudformation:us-east-1:113368912592:stack/amplify-fovus-dev-231413/6672e1e0-e7e7-11ed-8e38-121d6d0b7911",
+      "AmplifyAppId": "dwtyz3hmlht9k"
     },
     "categories": {
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2r23697u2h81h",
-          "type": "cicd"
-        }
-      },
       "auth": {
-        "fovusreact0ce1a52b": {
-          "userPoolId": "us-east-1_VfBorE1XC",
+        "fovusce8a5e1a": {
+          "userPoolId": "us-east-1_15rYePkMl",
           "userPoolName": "FovusUserPool",
-          "webClientId": "4oca9psuibt8o80udvqu6hter",
-          "nativeClientId": "4oca9psuibt8o80udvqu6hter",
-          "identityPoolId": "us-east-1:cb8641be-a944-4814-8853-29064d77ad80",
+          "webClientId": "6ubsek9lalo3gp2p4cge0n6tl4",
+          "nativeClientId": "6ubsek9lalo3gp2p4cge0n6tl4",
+          "identityPoolId": "us-east-1:2a4bd314-c5d9-44e7-9fb7-474930c12124",
           "identityPoolName": "FovusIdentityPool",
           "allowUnauthenticatedIdentities": true,
           "authRoleArn": "arn:aws:iam::113368912592:role/FovusIdentityPoolAuthRole",
           "authRoleName": "FovusIdentityPoolAuthRole",
           "unauthRoleArn": "arn:aws:iam::113368912592:role/FovusIdentityPoolUnauthRole",
           "unauthRoleName": "FovusIdentityPoolUnauthRole"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dwtyz3hmlht9k",
+          "type": "cicd"
         }
       }
     }
