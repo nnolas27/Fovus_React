@@ -1,6 +1,6 @@
 {
   "auth": {
-    "fovusce8a5e1a": {
+    "fovusa3eb5c3e": {
       "service": "Cognito",
       "serviceType": "imported",
       "providerPlugin": "awscloudformation",
@@ -12,7 +12,7 @@
     "amplifyhosting": {
       "service": "amplifyhosting",
       "type": "cicd",
-      "lastPushTimeStamp": "2023-05-01T06:24:44.507Z"
+      "lastPushTimeStamp": "2023-05-01T07:37:16.453Z"
     }
   }
 }
