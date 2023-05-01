@@ -3,6 +3,8 @@ import { Link, useLocation, } from "react-router-dom";
 import { uploadFile, updateFile } from '../service/Helper'
 
 const Form = () => {
+    const [inputText, setInputText] = useState('');
+    const [inputFile, setInputFile] = useState('');
     const [formData, setFormData] = useState({
         inputFile: '',
         inputText: ''
@@ -70,7 +72,7 @@ const Form = () => {
                 </div>
                 <div className="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
                     <div className="max-w-md w-full space-y-8">
-                        <form className="mt-8 space-y-6">
+                        <form className="mt-8 space-y-6" onSubmit={(_) => setFormData({inputFile: inputFile, inputText: inputText})}>
                             <input type="hidden" name="remember" defaultValue="true" />
                             <div className="rounded-md shadow-sm -space-y-px">
                                 <div>
@@ -84,7 +86,7 @@ const Form = () => {
                                         required
                                         className="mt-2 appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                                         placeholder="Input File"
-                                        onChange={(e) => setFormData({ ...formData, inputFile: e.target.files[0] })}
+                                        onChange={(e) => setInputFile(e.target.files[0])}
                                     />
                                 </div>
                                 <div>
@@ -99,7 +101,7 @@ const Form = () => {
                                         required
                                         className="mt-2 appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
                                         placeholder="Input Text"
-                                        onChange={(e) => setFormData({ ...formData, inputText: e.target.value })}
+                                        onChange={(e) => setInputText(e.target.value)}
                                     />
                                 </div>
                             </div>
