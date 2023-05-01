@@ -26,6 +26,12 @@
           "unauthRoleArn": "arn:aws:iam::113368912592:role/FovusIdentityPoolUnauthRole",
           "unauthRoleName": "FovusIdentityPoolUnauthRole"
         }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2r23697u2h81h",
+          "type": "cicd"
+        }
       }
     }
   }
