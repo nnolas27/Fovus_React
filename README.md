@@ -1,9 +1,9 @@
 # FovusCodingChallenge
-Author: Sai Surya Kaushik Punyamurthula
+Author: Nihal Singh
 
 Graduate Student at Arizona State University
 
-Email: spunyam2@asu.edu
+Email: nnolas27@asu.edu
 
 Steps for setting up amplify application for hosting the react application
 
